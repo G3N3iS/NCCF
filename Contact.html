@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Nigeria Chritian Corpers Fellowship</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;
+700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+ 
+</head>
+
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="Valid logo.png" alt="NCCF logo">
+            </a>
+            <i class="fas fa-times" id="close-icon" onclick="toggleMenu()"></i>
+            <i class="fas fa-bars" id="menu-icon" onclick="toggleMenu()"></i>  
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT US</a></li>
+                    <li><a href="Programes.html">PROGRAMS</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>   
+                </ul>
+            </div>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+<!----Contact Page-->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.993353557193!2d7.619974374254377!3d12.972276714865108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!
+    4f13.1!3m3!1m2!1s0x11b02377f05f6617%3A0xeb1fa96be6be6006!2sNCCF%20Katsina%20State%20Secretariat!5e0!3m2!1sen!2sng!4v1701434315075!5m2!1sen!2sng" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>No 36, Abuja Cresent,</h5>
+                    <p>Kofa Kaura Latout, Katsina, Katsina state. </p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>08034946959, 08069073699</h5>
+                    <p>Monday to Sunday, 10AM to 6PM</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>nccfkatsina@yahoo.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="contact-col">
+            <form action="formhandler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter Your Batch" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    
+   
+
+
+<!----Footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+        The Nigeria Christian Corpers’ Fellowship (NCCF) is a body of Christian corps members who are dedicated to serving<br> 
+        God and humanity within their service year, we are a fellowship that accommodates Christian corps members and helps in focusing their 
+        <br>relationship with God irrespective of their gender, tribe and denomination.
+    </p>
+    <div class="icons">
+        <i class="fa fa-phone fa-stack-3x"></i>
+        <i class="fa fa-mail-bulk fa-stack-3x"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-circle-bolt"></i> By G3n3sis WebDev</p>
+</section>
+        <!----------Javascript for toggleMenu----------->
+        <script>
+            function toggleMenu() {
+                var navLinks = document.querySelector('.nav-links');
+                navLinks.classList.toggle('show-menu');
+            }
+        </script>
+
+
+
+
+
+
+
+    </body>
+</html>
